@@ -82,4 +82,18 @@
 		</g>
 	</g>
 </g>
+<g>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-30.7341" y1="-27.3845" x2="13.592" y2="-27.3845">
+		<stop  offset="0" style="stop-color:#D36E00"/>
+		<stop  offset="0.1879" style="stop-color:#A0711C"/>
+		<stop  offset="0.4848" style="stop-color:#F9BF00"/>
+		<stop  offset="0.5758" style="stop-color:#FFC400"/>
+		<stop  offset="0.7091" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.7656" style="stop-color:#E0C890"/>
+		<stop  offset="0.8144" style="stop-color:#C89C36"/>
+		<stop  offset="0.8364" style="stop-color:#BE8B13"/>
+		<stop  offset="1" style="stop-color:#754C29"/>
+	</linearGradient>
+	<rect x="-30.734" y="-46.831" fill="url(#SVGID_5_)" width="44.326" height="38.893"/>
+</g>
 </svg>
