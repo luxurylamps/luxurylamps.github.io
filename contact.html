@@ -42,6 +42,17 @@
           font-size: 3.5rem;
         }
       }
+	  button{
+	  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+
+      background-clip: border-box, border-box;
+	  }
+	 .btn-primary {
+		color:#fff;
+		background-color: inherit;
+		border-color: inherit;
+	}
+
     </style>
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
@@ -67,7 +78,7 @@
 			  <input type="email"  class="form-control" id="input-q2" name="entry.2009106768" placeholder="Email" required>
 			</div>
 			  <textarea rows="5" class="form-control mb-3" id="input-q3" name="entry.751794931" placeholder="Message" aria-label="With textarea"></textarea>
-			  <button class="btn btn-lg btn-primary btn-block mb-3" id="form-submit" type="submit" name="Submit">Send Message</button>
+			  <button class="btn btn-lg btn-primary btn-block mb-3" id="form-submit" type="submit" name="Submit" style="">Send Message</button>
 			  <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
 			</form>
 			
