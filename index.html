@@ -80,6 +80,15 @@
 	  p.card-text{
 		color: white;
 	  }
+	  
+	  h3.gold{
+	    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%), radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%,
+		#5d4a1f 100%);
+		background-clip: border-box, border-box;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color:
+		transparent;
+	  }
     </style>
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
@@ -137,11 +146,11 @@
   
 <div class="container">
  <div class="row">
- <div class="col-sm-4 offset-sm-3 ">
+ <div class="col-sm-6 offset-sm-3 ">
   <div class="nav-scroller py-1 mb-2 mt-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="#">About Luxury Lamps</a>
-      <a class="p-2 text-muted" href="#">Contact Us</a>
+      <h3 class="gold"><a class="p-2 text-muted" href="about.html">About Luxury Lamps</a></h3>
+      <h3 class="gold"><a class="p-2 text-muted" href="contact.html">Contact Us</a></h3>
     </nav>
   </div>
  </div>
